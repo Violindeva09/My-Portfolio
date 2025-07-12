@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Devansh's Portfolio</title>
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
   <style>
     html, body {
@@ -148,70 +149,99 @@
 </head>
 <body>
 
+  <!-- Navigation Menu -->
   <nav>
-    <a href="#home" onclick="showSection('home')">Home</a>
-    <a href="#about" onclick="showSection('about')">About Me</a>
-    <a href="#skills" onclick="showSection('skills')">Skills</a>
-    <a href="#projects" onclick="showSection('projects')">Projects</a>
-    <a href="#resume" onclick="showSection('resume')">Resume</a>
-    <a href="#contact" onclick="showSection('contact')">Contact</a>
+    <a href="#" onclick="showSection('home')">Home</a>
+    <a href="#" onclick="showSection('about')">About Me</a>
+    <a href="#" onclick="showSection('skills')">Skills</a>
+    <a href="#" onclick="showSection('projects')">Projects</a>
+    <a href="#" onclick="showSection('resume')">Resume</a>
+    <a href="#" onclick="showSection('contact')">Contact</a>
   </nav>
 
   <main>
+    <!-- Home Section -->
     <section id="home" class="active">
       <h1>Welcome to My Portfolio!</h1>
-      <p>Welcome to my portfolio—a curated collection of projects, skills, and experiences...</p>
+      <p>Welcome to my portfolio—a curated collection of projects, skills, and experiences that reflect my passion for artificial intelligence and the art of violin performance. Here, you will find examples of my technical expertise, creative endeavors, and dedication to blending innovation with tradition.</p>
     </section>
 
+    <!-- About Me Section -->
     <section id="about">
       <h2>About Me</h2>
       <div class="about-container">
         <div class="about-text">
           <h3>Devansh V S Purihella</h3>
-          <p>Email: <a href="mailto:devansh.pvs@gmail.com">devansh.pvs@gmail.com</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/devanshvspurihella" target="_blank">linkedin.com/in/devanshvspurihella</a></p>
-          <p>Instagram: <a href="https://www.instagram.com/violindeva093" target="_blank">instagram.com/violindeva093</a></p>
-          <p>I am an ambitious B.Tech Artificial Intelligence student...</p>
+          <p>
+            Email: <a href="mailto:devansh.pvs@gmail.com">devansh.pvs@gmail.com</a><br/>
+            LinkedIn: <a href="https://www.linkedin.com/in/devanshvspurihella" target="_blank">linkedin.com/in/devanshvspurihella</a><br/>
+            Instagram: <a href="https://www.instagram.com/violindeva093" target="_blank">instagram.com/violindeva093</a>
+          </p>
+          <p>
+            I am an ambitious B.Tech Artificial Intelligence student at Anurag University, committed to harnessing advanced computational techniques to solve real-world problems. Deeply inspired by traditional values and cultural heritage, I believe that innovation is most impactful when it respects the wisdom of the past. As an accomplished violinist, I have developed discipline, creativity, and an appreciation for nuanced expression—all qualities I integrate into my work in AI research and development. My mission is to bridge the gap between technology and human experience, delivering solutions that are both technically robust and deeply meaningful.
+          </p>
         </div>
         <div class="about-photo">
-          <img src="images/violin-deva.jpg" alt="Devansh performing violin solo">
+          <img src="violin-deva.jpg" alt="Devansh performing violin solo in traditional attire">
         </div>
       </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
       <h2>Skills</h2>
       <ul>
-        <li><strong>C Programming:</strong> ...</li>
-        <li><strong>Python Programming:</strong> ...</li>
-        <li><strong>Machine Learning:</strong> ...</li>
-        <li><strong>Web Development:</strong> ...</li>
-        <li><strong>Data Analysis:</strong> ...</li>
-        <li><strong>Violin Performance:</strong> ...</li>
+        <li><strong>C Programming:</strong> Proficient in designing efficient algorithms and optimizing performance-critical applications.</li>
+        <li><strong>Python Programming:</strong> Skilled in data processing, machine learning workflows, and automation scripting.</li>
+        <li><strong>Machine Learning:</strong> Experience in supervised and unsupervised learning, model evaluation, and deployment strategies.</li>
+        <li><strong>Web Development (HTML, CSS, JavaScript):</strong> Capable of creating responsive, accessible, and visually appealing web interfaces.</li>
+        <li><strong>Data Analysis:</strong> Adept at extracting actionable insights from complex datasets using tools like Pandas and NumPy.</li>
+        <li><strong>Violin Performance:</strong> Over 8 years of training, with experience in solo and ensemble performances.</li>
       </ul>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
       <h2>Projects</h2>
       <div class="project-container">
         <div class="project-description">
-          <h3>VirtuoNet – AI-Powered Music Platform</h3>
-          <p>VirtuoNet is an intelligent platform that blends music education, real-time AI feedback, and social networking...</p>
+          <h3>Project 1: VirtuoNet – An AI-Powered Musical Learning and Networking Platform</h3>
+          <p>
+          VirtuoNet is an intelligent, culturally inclusive platform that blends music education, real-time AI feedback, and a vibrant social networking experience for musicians and learners worldwide. The platform is designed to address the challenges faced by self-learners and professionals alike—lack of structured guidance, limited networking opportunities, and absence of real-time feedback.
+          </p>
+          <p>
+          Key features include a smart AI Assistant for song details, lyrics, tempo, tuning, and audio/video analysis. A virtual tutor provides personalized learning sessions, progress tracking, and gamified elements inspired by Solo Leveling—XP progression, badges, and achievements. Users can build public profiles, connect with musicians, and showcase their work globally.
+          </p>
+          <p>
+          By combining cutting-edge AI technologies, gamification, and a deep respect for musical diversity, VirtuoNet empowers artists to learn, grow, and connect in a cohesive ecosystem celebrating creativity and lifelong learning.
+          </p>
         </div>
         <div class="project-media">
-          <img src="images/virtuo-net-logo.jpg" alt="VirtuoNet Logo">
+          <img src="virtuonet-logo.jpg" alt="VirtuoNet Logo">
         </div>
       </div>
     </section>
 
+    <!-- Resume Section -->
     <section id="resume">
       <h2>Resume</h2>
-      <p><a href="resume.pdf" class="button" target="_blank">Download My Resume (PDF)</a></p>
+      <p>
+        <a href="resume.pdf" class="button" target="_blank">Download My Resume (PDF)</a>
+      </p>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: devansh.pvs@gmail.com<br>Phone: +91-7093590028<br>LinkedIn: linkedin.com/in/devanshvspurihella<br>Instagram: instagram.com/violindeva093</p>
+      <p>
+        Email: <a href="mailto:devansh.pvs@gmail.com">devansh.pvs@gmail.com</a><br/>
+        Phone: +91-7093590028<br/>
+        LinkedIn: <a href="https://www.linkedin.com/in/devanshvspurihella" target="_blank">linkedin.com/in/devanshvspurihella</a><br/>
+        Instagram: <a href="https://www.instagram.com/violindeva093" target="_blank">instagram.com/violindeva093</a>
+      </p>
+      <p>
+        Blending tradition with technology to create lasting impact.
+      </p>
     </section>
   </main>
 
@@ -220,17 +250,13 @@
   </footer>
 
   <script>
-    function showSection(id) {
-      document.querySelectorAll("section").forEach(sec => {
-        sec.classList.remove("active");
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        section.classList.remove('active');
       });
-      document.getElementById(id).classList.add("active");
+      document.getElementById(sectionId).classList.add('active');
     }
-
-    window.addEventListener('load', () => {
-      const hash = window.location.hash.replace("#", "") || "home";
-      showSection(hash);
-    });
   </script>
 
 </body>
